@@ -1,0 +1,20 @@
+[package]
+name = "audit_engine"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+
+[[bin]]
+name = "audit_v1"
+path = "src/bin/audit_v1.rs"
+
+[[bin]]
+name = "audit_v2"
+path = "src/bin/audit_v2.rs"
+
+[dependencies]
+risc0-zkvm = { version = "=3.0.5", default-features = false, features = ["std"] }
+sha2 = "0.10"
+serde = { version = "1.0", default-features = false, features = ["derive"] }
+postcard = { version = "1.0", features = ["alloc"] }

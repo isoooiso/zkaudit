@@ -1,0 +1,40 @@
+   Compiling typenum v1.20.1
+   Compiling darling_core v0.23.0
+   Compiling serde_json v1.0.150
+   Compiling derive_more-impl v2.1.1
+   Compiling generic-array v0.14.7
+   Compiling crypto-common v0.1.7
+   Compiling block-buffer v0.10.4
+   Compiling digest v0.10.7
+   Compiling sha2 v0.10.9
+   Compiling signature v2.2.0
+   Compiling blake2 v0.10.6
+   Compiling rsa v0.9.10
+   Compiling risc0-zkp v3.0.4
+   Compiling cargo_metadata v0.19.2
+   Compiling darling_macro v0.23.0
+   Compiling derive_more v2.1.1
+   Compiling risc0-binfmt v3.0.4
+   Compiling darling v0.23.0
+   Compiling serde_with_macros v3.21.0
+   Compiling serde_with v3.21.0
+   Compiling rzup v0.5.1
+   Compiling risc0-build v3.0.5
+   Compiling methods v0.1.0 (/mnt/c/Users/petre/Desktop/zkaudit/zkvm/methods)
+error: failed to run custom build command for `methods v0.1.0 (/mnt/c/Users/petre/Desktop/zkaudit/zkvm/methods)`
+note: To improve backtraces for build dependencies, set the CARGO_PROFILE_RELEASE_BUILD_OVERRIDE_DEBUG=true environment variable to enable debug information generation.
+
+Caused by:
+  process didn't exit successfully: `/mnt/c/Users/petre/Desktop/zkaudit/zkvm/target/release/build/methods-81274286e6a1ae95/build-script-build` (exit status: 101)
+  --- stdout
+  cargo:rerun-if-env-changed=RISC0_BUILD_DEBUG
+  Building guest package: methods.audit_engine
+  cargo:rerun-if-env-changed=RISC0_SKIP_BUILD
+  Using Rust toolchain version 1.94.1
+  Using rustc: /home/petre/.risc0/toolchains/v1.94.1-rust-x86_64-unknown-linux-gnu/bin/rustc
+  cargo:rerun-if-env-changed=RISC0_BUILD_LOCKED
+  cargo:rerun-if-env-changed=RISC0_RUST_SRC
+  cargo:rerun-if-env-changed=CC_riscv32im_risc0_zkvm_elf
+  cargo:rerun-if-env-changed=CFLAGS_riscv32im_risc0_zkvm_elf
+  Using C++ toolchain version 2024.1.5
+  cargo:rerun-if-env-changed=RISC0_BUILD_DEBUG

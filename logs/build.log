@@ -1,0 +1,17 @@
+   Compiling methods v0.1.0 (/mnt/c/Users/petre/Desktop/zkaudit/zkvm/methods)
+error: failed to run custom build command for `methods v0.1.0 (/mnt/c/Users/petre/Desktop/zkaudit/zkvm/methods)`
+
+Caused by:
+  process didn't exit successfully: `/mnt/c/Users/petre/Desktop/zkaudit/zkvm/target/release/build/methods-3441041399506c23/build-script-build` (exit status: 101)
+  --- stdout
+  cargo:rerun-if-env-changed=RISC0_BUILD_DEBUG
+  Building guest package: methods.audit_engine
+  cargo:rerun-if-env-changed=RISC0_SKIP_BUILD
+  Using Rust toolchain version 1.94.1
+  Using rustc: /home/petre/.risc0/toolchains/v1.94.1-rust-x86_64-unknown-linux-gnu/bin/rustc
+  cargo:rerun-if-env-changed=RISC0_BUILD_LOCKED
+  cargo:rerun-if-env-changed=RISC0_RUST_SRC
+  cargo:rerun-if-env-changed=CC_riscv32im_risc0_zkvm_elf
+  cargo:rerun-if-env-changed=CFLAGS_riscv32im_risc0_zkvm_elf
+  Using C++ toolchain version 2024.1.5
+  cargo:rerun-if-env-changed=RISC0_BUILD_DEBUG

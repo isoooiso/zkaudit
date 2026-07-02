@@ -1,0 +1,31 @@
+=== Tool versions ===
+Linux Kirill 6.6.87.2-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025 x86_64 GNU/Linux
+rustc 1.96.0 (ac68faa20 2026-05-25)
+cargo 1.96.0 (30a34c682 2026-05-25)
+rzup 0.5.0
+Installed components:
+--------------------
+
+cargo-risczero
+* 3.0.5
+
+cpp
+* 2024.1.5
+
+r0vm
+* 3.0.5
+
+rzup home: /home/petre/.risc0
+cargo-risczero 3.0.5
+=== Repository root: /mnt/c/Users/petre/Desktop/zkaudit ===
+
+=== Detecting host/prover package ===
+ERROR: No Cargo.toml at repository root.
+
+Proving requires a RISC Zero workspace with a host/prover package. Expected
+after Checkpoint 2, for example:
+
+  cargo risczero new zkvm --guest-name audit_engine
+
+That scaffolds a workspace with a "host" package. Commit and push the
+workspace, then re-run this script on the cloud server.

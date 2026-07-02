@@ -1,0 +1,21 @@
+   Compiling serde_json v1.0.150
+   Compiling cargo_metadata v0.19.2
+   Compiling risc0-build v3.0.5
+   Compiling methods v0.1.0 (/mnt/c/Users/petre/Desktop/zkaudit/zkvm/methods)
+error: failed to run custom build command for `methods v0.1.0 (/mnt/c/Users/petre/Desktop/zkaudit/zkvm/methods)`
+note: To improve backtraces for build dependencies, set the CARGO_PROFILE_RELEASE_BUILD_OVERRIDE_DEBUG=true environment variable to enable debug information generation.
+
+Caused by:
+  process didn't exit successfully: `/mnt/c/Users/petre/Desktop/zkaudit/zkvm/target/release/build/methods-81274286e6a1ae95/build-script-build` (exit status: 101)
+  --- stdout
+  cargo:rerun-if-env-changed=RISC0_BUILD_DEBUG
+  Building guest package: methods.audit_engine
+  cargo:rerun-if-env-changed=RISC0_SKIP_BUILD
+  Using Rust toolchain version 1.94.1
+  Using rustc: /home/petre/.risc0/toolchains/v1.94.1-rust-x86_64-unknown-linux-gnu/bin/rustc
+  cargo:rerun-if-env-changed=RISC0_BUILD_LOCKED
+  cargo:rerun-if-env-changed=RISC0_RUST_SRC
+  cargo:rerun-if-env-changed=CC_riscv32im_risc0_zkvm_elf
+  cargo:rerun-if-env-changed=CFLAGS_riscv32im_risc0_zkvm_elf
+  Using C++ toolchain version 2024.1.5
+  cargo:rerun-if-env-changed=RISC0_BUILD_DEBUG

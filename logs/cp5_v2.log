@@ -1,0 +1,11 @@
+   Compiling methods v0.1.0 (/home/petre/zkaudit/zkvm/methods)
+   Compiling host v0.1.0 (/home/petre/zkaudit/zkvm/host)
+    Finished `release` profile [optimized + debuginfo] target(s) in 43.28s
+     Running `target/release/host --target v2 --suite suites/standard.json --dev`
+target=v2
+image_id=8bd7b25bdfc8749301140588c11c97df9829bbaa739d227ae08788c00219a951
+contract_hash=c9442e39c964a1c53df205a9fbce57b351759db139e3ee95b9f73d09a967bd0f
+suite_commitment=40c583061a7be04d18dffc3fc7c7439408ed7c37969432a19f72a3e9ee820d10
+n_passed=10
+n_total=10
+score=10/10

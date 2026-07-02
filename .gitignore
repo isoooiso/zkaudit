@@ -1,32 +1,20 @@
-
-# local env / secrets
+target/
+**/target/
+groth-work*/
+**/groth-work*/
+.risc0/
+vendor/
+.stellar/
+*.stellar-secret
+secret*.txt
+*.pem
+*.key
 .env
 .env.*
-*.key
-*.pem
-*.seed
-*.secret
 
-# build outputs
-target/
-dist/
-build/
-
-# logs / temp
-*.log
-tmp/
-.cache/
-
-# generated proof outputs - commit only intentionally
-proof.txt
-journal.hex
-seal.hex
-receipt.json
-receipt.bin
-*.receipt
-*.proof
-
-# OS/editor
 .DS_Store
-.vscode/
+Thumbs.db
+*.swp
+*~
 .idea/
+.vscode/

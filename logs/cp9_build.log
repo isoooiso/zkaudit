@@ -1,0 +1,100 @@
+ℹ️  CARGO_BUILD_RUSTFLAGS=--remap-path-prefix=/home/petre/.cargo/registry/src= SOROBAN_SDK_BUILD_SYSTEM_SUPPORTS_SPEC_SHAKING_V2=1 cargo rustc --manifest-path=Cargo.toml --crate-type=cdylib --target=wasm32v1-none --release
+   Compiling proc-macro2 v1.0.106
+   Compiling quote v1.0.46
+   Compiling unicode-ident v1.0.24
+   Compiling serde_core v1.0.228
+   Compiling serde v1.0.228
+   Compiling zmij v1.0.21
+   Compiling serde_json v1.0.150
+   Compiling itoa v1.0.18
+   Compiling memchr v2.8.2
+   Compiling ident_case v1.0.1
+   Compiling strsim v0.11.1
+   Compiling version_check v0.9.5
+   Compiling autocfg v1.5.1
+   Compiling typenum v1.20.1
+   Compiling schemars v0.8.22
+   Compiling dyn-clone v1.0.20
+   Compiling generic-array v0.14.9
+   Compiling cpufeatures v0.2.17
+   Compiling cfg-if v1.0.4
+   Compiling data-encoding v2.11.0
+   Compiling ethnum v1.5.3
+   Compiling escape-bytes v0.1.1
+   Compiling num-traits v0.2.19
+   Compiling semver v1.0.28
+   Compiling either v1.16.0
+   Compiling thiserror v1.0.69
+   Compiling equivalent v1.0.2
+   Compiling itertools v0.10.5
+   Compiling hashbrown v0.17.1
+   Compiling prettyplease v0.2.37
+   Compiling fnv v1.0.7
+   Compiling heapless v0.8.0
+   Compiling base64 v0.22.1
+   Compiling byteorder v1.5.0
+   Compiling indexmap v2.14.0
+   Compiling syn v2.0.118
+   Compiling crypto-common v0.1.6
+   Compiling block-buffer v0.10.4
+   Compiling hash32 v0.3.1
+   Compiling digest v0.10.7
+   Compiling rustc_version v0.4.1
+   Compiling static_assertions v1.1.0
+   Compiling stable_deref_trait v1.2.1
+   Compiling sha2 v0.10.9
+   Compiling wasmparser v0.116.1
+   Compiling num-integer v0.1.46
+   Compiling heck v0.5.0
+   Compiling num-bigint v0.4.6
+   Compiling darling_core v0.23.0
+   Compiling darling_core v0.20.11
+   Compiling macro-string v0.1.4
+   Compiling serde_derive v1.0.228
+   Compiling cfg_eval v0.1.2
+   Compiling num-derive v0.4.2
+   Compiling thiserror-impl v1.0.69
+   Compiling visibility v0.1.1
+   Compiling bytes-lit v0.0.5
+   Compiling darling_macro v0.20.11
+   Compiling darling_macro v0.23.0
+   Compiling darling v0.20.11
+   Compiling darling v0.23.0
+   Compiling serde_with_macros v3.21.0
+   Compiling crate-git-revision v0.0.6
+   Compiling hex v0.4.3
+   Compiling stellar-strkey v0.0.13
+   Compiling stellar-xdr v25.0.0
+   Compiling soroban-env-common v25.0.1
+   Compiling stellar-strkey v0.0.16
+   Compiling soroban-sdk v25.3.1
+   Compiling serde_with v3.21.0
+   Compiling soroban-spec v25.3.1
+   Compiling soroban-spec-rust v25.3.1
+   Compiling soroban-env-macros v25.0.1
+   Compiling soroban-env-guest v25.0.1
+   Compiling soroban-sdk-macros v25.3.1
+   Compiling risc0-interface v0.1.0 (https://github.com/NethermindEth/stellar-risc0-verifier?rev=e8ff6ea202db195352c0141ecc533ff649393fe4#e8ff6ea2)
+   Compiling attestation-registry v0.1.0 (/mnt/c/Users/petre/Desktop/zkaudit/contracts/attestation-registry)
+warning: use of deprecated method `soroban_sdk::events::Events::publish`: use the #[contractevent] macro on a contract event type
+   --> src/lib.rs:122:22
+    |
+122 | ...().publish(
+    |       ^^^^^^^
+    |
+    = note: `#[warn(deprecated)]` on by default
+
+warning: `attestation-registry` (lib) generated 1 warning
+    Finished `release` profile [optimized] target(s) in 34.30s
+ℹ️  Build Summary:
+    Wasm File: target/wasm32v1-none/release/attestation_registry.wasm (10758 bytes optimized (original size was 11387 bytes))
+    Wasm Hash: 1f4d9b37dde6b9501c01d7c25a74c447eb8b035f7b2c8a102ee3138f9f3d441a
+    Wasm Size: 10758 bytes optimized (original size was 11387 bytes)
+    Exported Functions: 5 found
+      • __constructor
+      • attest
+      • get_attestation
+      • is_engine_registered
+      • register_engine
+✅ Build Complete
+
