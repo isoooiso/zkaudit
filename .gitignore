@@ -1,0 +1,32 @@
+
+# local env / secrets
+.env
+.env.*
+*.key
+*.pem
+*.seed
+*.secret
+
+# build outputs
+target/
+dist/
+build/
+
+# logs / temp
+*.log
+tmp/
+.cache/
+
+# generated proof outputs - commit only intentionally
+proof.txt
+journal.hex
+seal.hex
+receipt.json
+receipt.bin
+*.receipt
+*.proof
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
